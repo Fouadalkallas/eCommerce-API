@@ -14,7 +14,7 @@ const globalError = require('./middlewares/errorMiddleware');
 const dbConnection = require('./db');
 // Routes
 // eslint-disable-next-line import/no-unresolved, import/extensions, node/no-missing-require
-//const mountRoutes = require('./routes/');
+const mountRoutes = require('./routes/');
 const { webhookCheckout } = require('./controllers/orderController');
 
 // Connect with db
